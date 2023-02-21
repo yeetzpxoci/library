@@ -1,0 +1,15 @@
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin-right: 256px;
+    margin-left: 256px;
+}
+
+.card {
+    height: 256px;
+    width: 144px;
+    background-color: rgb(221, 221, 221);
+    align-self: center;
+    justify-self: center;
+}

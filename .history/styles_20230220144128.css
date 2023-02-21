@@ -1,0 +1,9 @@
+.cards {
+    gap: 24px;
+}
+
+.card {
+    height: 144px;
+    width: 96px;
+    background-color: blue;
+}

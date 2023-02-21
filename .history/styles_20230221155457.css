@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #F7C8E0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header p {
+    font-family: 'Gloock', serif;
+    font-size: 48px;
+}
+
+#newBook {
+    position: absolute;
+    right: 288px;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #DFFFD8;
+    height: 48px;
+    width:196px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+#cards {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.card {
+    width: 100%;
+    height: 256px;
+    background-color: #DFFFD8;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    border-width: 0px;
+    align-self: center;
+    justify-self: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card p {
+    margin: 0px;
+}
+
+input, label {
+    display: block;
+}
+
+#input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #DFFFD8;
+    padding: 16px;
+}

@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin-right: 256px;
+    margin-left: 256px;
+}
+
+.card {
+    height: 256px;
+    width: 144px;
+    background-color: #DFFFD8;
+    align-self: center;
+    justify-self: center;
+}
+
+form {
+    display: none;
+}
